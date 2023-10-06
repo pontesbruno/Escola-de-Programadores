@@ -1,0 +1,10 @@
+:root{
+ --purple-300: #793409;
+}
+
+p{
+    color: var(--purple-300);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  1rem;
+    font-weight: 400;}
