@@ -2,37 +2,42 @@
  --purple-300: #793409;
  
 }
-
 body{
     font-family: 'Gabarito', cursive;
+    background-color: darkgrey;
 }
+
+
 p{
     color: var(--purple-300);
     font-family: 'Gabarito', cursive; 
     font-size: 1rem; 
 }
 
-.gif{
-    margin: 20px 5px 5px 400px;
-    width: 300px;
-    height: 200px;
-}
-.textoSobreMim{
-    color: var(--purple-300);
-    font-family: 'Gabarito', cursive;
-    box-sizing: border-box;
-    font-size:  0.8rem;
-    font-weight: 300;
-    text-align: center;
-    text-indent: 20px;
-}
-
-
 .logo{
     background: antiquewhite;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    flex-direction: row;
+    
+} 
+
+.menuPrincipalBotoes{
+
+    width: 200px;
+    display: flex;
+    
+}
+.textoSobreMim{
+    
+    margin-right: 30px;
+    color: var(--purple-300);
+    font-family: 'Gabarito', cursive;
+    box-sizing: border-box;
+    font-size:  1.0rem;
+    font-weight: 300;
+    text-align: center;
+    text-indent: 20px;
 }
 
 .botaoMenuPrincipal{
@@ -40,21 +45,70 @@ p{
     font-family:'Poppins', sans-serif;
     text-decoration: none;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 1000;
     text-transform: uppercase;
     padding: 1.5%;
+
 }
+#divBusca{
+    background-color:#85bbbb;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:283px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:small;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+    position: relative;
+    top: -34px;
+    left: 214px;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
 .bannerImagem{
-    margin: -30px 5px 30px 5px;
-    clip-path: circle(60%);
-    width: 300px;
-    height: 200px;
+    position: fixed;
+    top: 180px;
+    left: -120px;
     
+    clip-path: circle(60%);
+    width: 453px;
+    height: 77px;
+    
+}
+.col-1g-12{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.skill{
+   background-color:  #b5b5b0;
 }
 
 .botaoCurriculum{
     color: var(--purple-300);
+
 }
+
 .botaoContato{
     color: var(--purple-300);
 }
@@ -76,4 +130,3 @@ p{
         -ms-flex-direction: column;
         flex-direction: column;
     }
-}

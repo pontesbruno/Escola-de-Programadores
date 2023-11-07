@@ -2,37 +2,37 @@
 <html lang ="pt-BR">
     <head>
         <meta charset = "utf-8"/>
-        <meta name="viewport" content="with=dervice-width, inicial-scale=1"> <!--deixa a largura da página sempre do tamanho da largura do dispositivo utilizado-->
-        <meta name=" description"content="Página de Portfólio da Escola da Programadores - Bruno Pontes"><!--descrição de procura no google-->
-        <meta name = " keyword"content ="HTML, CSS, Python, JavaScript, Escola de Progamadores, Física Teórica, Análise de Dados"> <!--palavras chaves que define a página-->
-        <meta name ="author"content ="Bruno Pontes"/><!--identificar ao autor da página-->
-        <link rel="icon"type="imagem/x-icon" href="img/professor.webp"> <!--para colocar icone no canto do title da página-->
+        <meta name = "viewport" content="with=dervice-width, inicial-scale=1"> <!--deixa a largura da página sempre do tamanho da largura do dispositivo utilizado-->
+        <meta name = "description"content="Página de Portfólio da Escola da Programadores - Bruno Pontes"><!--descrição de procura no google-->
+        <meta name = "keyword"content ="HTML, CSS, Python, JavaScript, Escola de Progamadores, Física Teórica, Análise de Dados"> <!--palavras chaves que define a página-->
+        <meta name = "author"content ="Bruno Pontes"/><!--identificar ao autor da página-->
+        <link rel = "icon"type ="imagem/x-icon" href="img/professor.webp"> <!--para colocar icone no canto do title da página-->
         <title>Bruno Pontes</title>
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
-
+        <link rel= "preconnect" href="https://fonts.googleapis.com">
+        <link rel= "preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href= "https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
-        
     </head>
+
 
     <body>
         <section> <!--para separar seções, podemos usar <div dentro dela-->
-            <div class="logo">
-                <img width="115px" height="80px" aling="left" src="img/logobr.png" alt="Logo de Bruno Pontes" style="
+            <div class= "logo">
+                <img width= "115px" height="80px" aling="left" src="img/logobr.png" alt ="Logo de Bruno Pontes" style="
     margin-left: 3%;">
-
-            <div class="menuPrincipalBotoes" style="width: 30%; display: flex; justify-content: space-between" style="margin-rigth 5%">
+            <div class=  "menuPrincipalBotoes" style="width: "30%""; display: "flex"; ustify-content:" "space-between" style="margin-rigth 5%">
             
-        </div>
+            </div>
                 <a class="botaoMenuPrincipal col-4 "href="#sobreMim"> SOBRE MIM</a>
                 <a class="botaoMenuPrincipal col-4" href="#skills">SKILLS</a>
                 <a class="botaoMenuPrincipal col-4" href="#contato">CONTATO</a>
-                
+                <div id="divBusca">
+                    <img width="20px"  height="20px" src="img/busca.png" alt="Buscar..."/>
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <button id="btnBusca">Buscar</button>
+                  </div>   
             </div>
-        </section>
-
+           
         <section>
             <div id ="sobreMim" class="contanier-sobre-mim">
                      
@@ -40,28 +40,27 @@
                     especialização em Ensino de Ciências e Matemática pela Universidade Federal Rural de Pernambuco(2013) e mestrado em Física Aplicada pela 
                     Universidade Federal Rural de Pernambuco (2019). Atualmente aluno do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (UNÍNTESE), 
                     Experiência na área de Física e Matemática, atuando no ensino médio e superior, educação a distância, software educacional e simulação computacional.".</p>
-                    <figure class="gif">
-                        <img src = "img/animacao.gif" width="200px" height="200px" aling="rigth" src="animacao.gif" alt="gif de professor maluco" style="
-                        margin-left: 60%;">
-                    </figure>     
+                <center>
+                    <p>
+                        <h6><a  href="http://lattes.cnpq.br/7705720168633748"target="_blank">Currículo Lattes</a></h6>
+                    </p>
+                </center>
+            <div class="col-1g-12 mt-lg-12">
+
                     
             <div class = "bannerImagem">
                     <center>
                         <img  width="280px"  height="300px"  src="img/imagem1.png"  alt="Bruno Pontes sentado de chapéu"/> 
                     </center>
-                    
             </div>
-        </section>
-        <center>
-        
-        <p>
-            <h6><a  href="http://lattes.cnpq.br/7705720168633748"target="_blank">Link do Currículo Lattes</a></h6>
-        </p>
-        </center>
-        <section>
-            <div id="contato">
-                <a href=""></a>
-            </div>
+
+            <section>
+                <div id = "skills" class = "skils"></div>
+            </section>
+
+            <section> 
+                <div = "contato" class = "contato"></div>
+            </section>
         </section>
             
         <section>
@@ -69,17 +68,22 @@
                 <a href=""></a>
             </div>
         </section>
+        
+        <section>
+            <div id="contato">
+                <a href=""></a>
+            </div>
+        </section>
+            
+       
        
         <section>
             <div class = "rodaPe">
                 <div class="conteudoRodape">
-                    
-                <p> ©Copyright 2023 by Brito P.B. All rights reversed.</p>
+                    <p> ©Copyright 2023 by Brito P.B. All rights reversed.</p>
             </div>
-
         </section>
-        
-        
+
     </body>
 
 </html>
